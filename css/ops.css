@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+}
+body{
+    background: linear-gradient(130deg, #7B2869, #9D3C72, #C85C8E, #FFBABA);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+main{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
